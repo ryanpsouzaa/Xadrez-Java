@@ -1,7 +1,10 @@
 package application;
 
+import entities.Position;
+
 public class XadrezProgram {
     public static void main(String[]args){
-        System.out.println("Lançamento do projeto");
+        Position posicao = new Position(3, 5);
+        System.out.println(posicao);
     }
 }
